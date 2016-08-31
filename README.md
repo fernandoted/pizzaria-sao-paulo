@@ -1,2 +1,2 @@
 # pizzaria-sao-paulo
-Pi
+Pizzaria São Paulo's website, a restaurant located at downtown of Ubatuba - Brasil
