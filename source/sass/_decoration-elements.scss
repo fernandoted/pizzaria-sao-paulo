@@ -1,0 +1,33 @@
+/* Decorations Elements - Pizzaria São Paulo
+   author: Fernando Ted
+   http://fernandoted.com.br/ - http://github.com/fernandoted/ - http://takealook.com.br/
+   07/02/2016 */
+
+@import "variables";
+
+.text-intro {
+	
+	.divider-line {
+		width: 40%;
+		margin: 0 auto;
+		border-bottom: 1px solid #95989A;
+	}
+}
+
+@media(min-width: map-get($grid-breakpoints,md)){
+	.text-intro {
+		
+		.divider-line {
+			width: 30%;
+		}
+	}
+}
+
+@media(min-width: map-get($grid-breakpoints,lg)){
+	.text-intro {
+		
+		.divider-line {
+			width: 15%;
+		}
+	}
+}

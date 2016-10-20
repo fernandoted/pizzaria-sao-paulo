@@ -1,0 +1,49 @@
+/* Footer - Pizzaria São Paulo
+   author: Fernando Ted
+   http://fernandoted.com.br/ - http://github.com/fernandoted/ - http://takealook.com.br/
+   07/02/2016 */
+
+/* footer logo */
+.footer-wrap {
+	padding: 50px 0;
+	@extend .col-xs-12;
+	
+	.footer-logo-wrap {
+		width: 40%;
+		margin: 0 auto;
+		
+		.logo-footer {
+			width: 100%;
+		}
+	}
+}
+
+@media(min-width: map-get($grid-breakpoints,md)){
+	.footer-wrap {
+		padding: 180px 0 50px 0;
+	
+		.footer-logo-wrap {
+			width: 25%;
+			margin: 0 auto;
+			
+			.logo-footer {
+				width: 100%;
+			}
+		}
+	}
+}
+
+@media(min-width: map-get($grid-breakpoints,lg)){
+	.footer-wrap {
+		padding: 7.5rem 0 3.125rem 0;
+	
+		.footer-logo-wrap {
+			width: 15%;
+			margin: 0 auto;
+			
+			.logo-footer {
+				width: 100%;
+			}
+		}
+	}
+}

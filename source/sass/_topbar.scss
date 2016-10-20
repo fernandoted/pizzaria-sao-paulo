@@ -1,0 +1,50 @@
+/* Topbar - Pizzaria São Paulo
+   author: Fernando Ted
+   http://fernandoted.com.br/ - http://github.com/fernandoted/ - http://takealook.com.br/
+   07/02/2016 
+*/
+
+@import "variables";
+
+.heading {
+	height: 50px;
+	width: 100%;
+	/*background-color: $black;*/
+	padding: .5rem 0;
+	
+	.heading-left,
+	.heading-right {
+		@extend .col-xs-6;
+	}
+	
+	.heading-right {
+		text-align: right;
+	}
+	
+	.heading-link {
+		color: $white;
+		font-size: 1.5rem;
+		padding: 0 .4rem;
+	}
+}
+
+.slide-menu-icon {
+	&:after {
+		content: "";
+		position: fixed;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		background-color: rgba(0,0,0,.4);
+	}
+	.heading{
+		left: 80%;
+	}
+}
+
+@media(min-width: map-get($grid-breakpoints,lg)){
+	.heading {
+		padding: 1.250rem 1.875rem .5rem 1.875rem;
+	}
+}

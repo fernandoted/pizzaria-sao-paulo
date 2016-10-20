@@ -1,0 +1,51 @@
+/* Texts - Pizzaria São Paulo
+   author: Fernando Ted
+   http://fernandoted.com.br/ - http://github.com/fernandoted/ - http://takealook.com.br/
+   07/02/2016 */
+
+
+@import "variables";
+
+/* presentation home text */
+.text-intro {
+	@extend .col-xs-12;
+	
+	.text-wrap {
+		width: 80%;
+		margin: 0 auto;
+		padding: 20px 0 30px 0;
+		line-height: .9rem;
+		text-align: center;
+		
+		.paragraph-intro {
+			font-size: .8rem;
+			color: #95989A;
+			width: 100%;
+		}
+	}
+}
+
+/* tablet */
+@media(min-width: map-get($grid-breakpoints,md)){
+	.text-intro {
+		
+		.text-wrap {
+			width: 50%;
+			line-height: 1.2rem;
+			
+			.paragraph-intro {
+				font-size: 1rem;
+			}
+		}
+	}
+}
+
+/* desktop */
+@media(min-width: map-get($grid-breakpoints,lg)){
+	.text-intro {
+			
+		.text-wrap {
+			width: 30%;
+		}
+	}
+}

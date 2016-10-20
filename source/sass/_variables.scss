@@ -1,0 +1,48 @@
+/* Variables - http://takealook.com.br - 05/23/2016
+   author: Fernando Ted 
+   https://github.com/fernandoted/takealook
+*/
+
+
+/* fonts */
+@import url(https://fonts.googleapis.com/css?family=Passion+One:400,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300italic,300,200italic,200,100italic,100);
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+
+/* colors */
+$white: #FFF;
+$black: #000;
+$black-flat: #1C2021;
+$gray: #898989;
+$red: #FC575E;
+$red-chassis: #672121;
+/*$black-gray-dark: #323232;*/
+$black-gray-dark: #181303;
+
+/* fonts */
+$lang-font: 'Helvetica';
+$logo-font-family: 'Passion One';
+$logo-font: 'Fjalla One';
+$menu-font: 'Myriad Pro Light SemiCondensed Italic';
+$font-intro: 'Myriad Pro';
+$menu-font-family: 'Raleway', sans serif;
+
+/* body */
+$opacity: 0.3;
+$opacity-hover: 0.7; 
+
+/* language */
+$lang-font-size: 0.8em;
+
+/* logo */
+$logo-letter-spacing: -7px;
+$type-size: 9em;
+
+/* text intro */
+$font-size-intro: 1em;
+
+/* icons */
+$icon-size: 2em;
+
+/* main menu */
+$menu-font-size: 1.2em;

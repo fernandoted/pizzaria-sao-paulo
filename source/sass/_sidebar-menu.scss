@@ -1,0 +1,83 @@
+/* Sidebar Menu - Pizzaria São Paulo
+   author: Fernando Ted
+   http://fernandoted.com.br/ - http://github.com/fernandoted/ - http://takealook.com.br/
+   07/02/2016 */
+
+
+@import "variables";
+
+.offcanvas {
+	width: 70%;
+	height: 100%;
+	position: fixed;
+	right: -70%;
+	top: 0;
+	background-color: $black-gray-dark;
+	z-index: 1;
+	@include transition(left, .8s cubic-bezier(0.77, 0, 0.175, 1));
+	
+	.menu-list {
+		padding-top: 3rem;
+		@extend .nav;
+		
+		.menu-item {
+			@extend .nav-item;
+			border-left: 5px solid transparent; /* vermelho chassis */
+			
+			.menu-link {
+				@extend .nav-link;
+				color: $white;
+				margin-left: 1.5rem;
+				padding: 1rem 0;
+				
+				.item-icon {
+					padding-right: 1rem;
+				}
+			}
+			&:hover {
+				border-color: $red-chassis;
+				background-color: darken($black-gray-dark, 5%);
+			}
+		}
+	}
+}
+
+.open-offcanvas {
+	&:after {
+		content: "";
+		position: fixed;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		background-color: rgba(0,0,0,.4);
+	}
+	.offcanvas {
+		right: 0;
+	}
+}
+
+@media(min-width: map-get($grid-breakpoints,md)){
+	.offcanvas {
+		width: 40%;
+		right: -40%;
+		
+		.menu-list {
+			padding-top: 5rem;
+			
+			.menu-item {
+				font-size: 1.2rem;
+				.menu-link {
+					margin-left: 3rem;
+				}
+			}
+		}
+	}
+}
+
+@media(min-width: map-get($grid-breakpoints,lg)){
+	.offcanvas {
+		width: 25%;
+		right: -25%;
+	}
+}

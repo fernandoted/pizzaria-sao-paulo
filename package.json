@@ -1,0 +1,34 @@
+{
+  "name": "pizzaria-sao-paulo",
+  "version": "1.0.0",
+  "description": "Pizzaria São Paulo's website, a restaurant at downtown of Ubatuba - Brazil",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandoted/pizzaria-sao-paulo.git"
+  },
+  "keywords": [
+    "pizzaria",
+    "são",
+    "paulo",
+    "fernando",
+    "ted"
+  ],
+  "author": "fernando ted",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fernandoted/pizzaria-sao-paulo/issues"
+  },
+  "homepage": "https://github.com/fernandoted/pizzaria-sao-paulo#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-sass": "^2.3.2"
+  }
+}

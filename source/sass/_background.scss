@@ -1,0 +1,20 @@
+/* Background Image - Pizzaria São Paulo
+   author: Fernando Ted
+   http://fernandoted.com.br/ - http://github.com/fernandoted/ - http://takealook.com.br/
+   07/02/2016 
+*/
+
+
+.full {
+	/*background-image: url(../../img/pattern-overlay.png);*/
+	background: url(../../img/fachada-opacity-blur.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	/*max-width: 100%;*/
+}
+
+.bg-flat {
+	background: $black-flat;
+}

@@ -1,0 +1,42 @@
+/* Stylesheet - Pizzaria São Paulo
+   author: fernando ted
+   http://fernandoted.com.br/ - http://github.com/fernandoted/ - http://takealook.com.br/
+   07/02/2016 
+*/
+
+
+@import "variables";
+@import "../components/bootstrap/scss/bootstrap";
+@import "../components/font-awesome/scss/font-awesome";
+@import "sidebar-menu";
+@import "topbar";
+@import "background";
+@import "logo";
+@import "texts";
+@import "buttons";
+@import "footer";
+@import "address";
+@import "decoration-elements";
+@import "map";
+
+
+html, body {
+	min-height: 100%;
+}
+
+body {
+	background: transparent;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+/*
+.main-container {
+	@extend .container-fluid;
+	@extend .col-xs-12;
+}*/

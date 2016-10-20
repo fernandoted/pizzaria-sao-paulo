@@ -1,0 +1,24 @@
+{
+  "name": "pizzaria-sao-paulo",
+  "description": "Pizzaria São Paulo's website, a restaurant at downtown of Ubatuba - Brazil",
+  "main": "index.js",
+  "authors": [
+    "fernando ted"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "pizzaria",
+    "são",
+    "paulo",
+    "fernando",
+    "ted"
+  ],
+  "homepage": "https://github.com/fernandoted/pizzaria-sao-paulo",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

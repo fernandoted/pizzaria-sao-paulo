@@ -1,0 +1,35 @@
+/* Google Maps - Pizzaria São Paulo
+   author: Fernando Ted
+   http://fernandoted.com.br/ - http://github.com/fernandoted/ - http://takealook.com.br/
+   07/02/2016 */
+
+
+.map-wrap {
+	padding-left: 15px;
+	padding-right: 15px;
+	
+	.map {
+		width: 100%;
+		height: 270px;
+	}
+}
+
+@media(min-width: map-get($grid-breakpoints,md)){
+	.map-wrap {
+	
+		.map {
+			height: 400px;
+		}
+	}
+}
+
+@media(min-width: map-get($grid-breakpoints,lg)){
+	.map-wrap {
+		padding: 7.5rem 3.188rem 0 3.188rem;
+		
+		.map {
+			width: 40%;
+			height: 300px;
+		}
+	}
+}

@@ -1,0 +1,22 @@
+/* Buttons - Pizzaria São Paulo
+   author: Fernando Ted
+   http://fernandoted.com.br/ - http://github.com/fernandoted/ - http://takealook.com.br/
+   07/02/2016 
+*/
+
+
+.button-wrap {
+	@extend .col-xs-12;
+	
+	.button-know {
+		font-size: .8rem;
+		border-radius: 20px;
+		padding: 5px 50px;
+		@extend .btn;
+		@extend .btn-outline-secondary;
+	}
+	
+	&:hover {
+		color: #222222;
+	}
+}

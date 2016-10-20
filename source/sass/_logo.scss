@@ -1,0 +1,41 @@
+/* Logo - Pizzaria São Paulo
+   author: Fernando Ted
+   http://fernandoted.com.br/ - http://github.com/fernandoted/ - http://takealook.com.br/
+   07/02/2016 
+*/
+
+
+.logo-wrap {
+	margin: 80px 0 90px 0;
+	padding-left: 0;
+	padding-right: 0;
+	@extend .col-xs-12;
+	
+	.logo-home {
+		width: 80%;
+		margin: 0 auto;
+		
+		.logo-img {
+			width: 100%;
+		}
+	}
+}
+
+@media(min-width: map-get($grid-breakpoints,md)){
+	.logo-wrap {
+		margin: 230px 0 150px 0;
+		
+		.logo-home {
+			width: 50%;
+		}
+	}
+}
+
+@media(min-width: map-get($grid-breakpoints,lg)){
+	.logo-wrap {
+		margin: 80px 0 70px 0;
+		.logo-home {
+			width: 40%;
+		}
+	}
+}

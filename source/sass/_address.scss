@@ -1,0 +1,87 @@
+/* Address - Pizzaria São Paulo
+   author: Fernando Ted
+   http://fernandoted.com.br/ - http://github.com/fernandoted/ - http://takealook.com.br/
+   07/02/2016 */
+
+
+/* adrress ate home-page */
+.address-row-home {
+	@extend .col-xs-12;
+	padding-top: 50px;
+	
+	.address-wrap-home {
+		text-align: center;
+		width: 70%;
+		margin: 0 auto;
+		line-height: .9rem;
+	
+		.address-home {
+			color: $white;
+			font-size: .7rem;
+			
+	}
+		
+		.map-link {
+			color: $red;
+			font-size: .8rem;
+			margin-left: .5rem;
+		}
+	}
+}
+/* location page */
+.address-wrap {
+	width: 80%;
+	margin: 0 auto;
+	padding: 40px 0 10px 0;
+	text-align: center;
+	
+	.address-location, .tel-location {
+		color: #FEFEFE;
+		font-size: .8rem;
+		margin-bottom: 0;
+	}
+}
+
+@media(min-width: map-get($grid-breakpoints,md)){
+	.address-row-home {
+		padding-top: 250px;
+		
+		.address-wrap-home {
+			
+			.address-home {
+				font-size: .9rem;
+			}
+		}
+	}
+	/* location page (tablet) */
+	.address-wrap {
+		width: 80%;
+		margin: 0 auto;
+		padding: 180px 0 40px 0;
+		text-align: center;
+	
+		.address-location, .tel-location {
+			color: #FEFEFE;
+			font-size: 1rem;
+			margin-bottom: 0;
+		}
+	}
+}
+
+@media(min-width: map-get($grid-breakpoints,lg)){
+	.address-row-home {
+		padding-top: 60px;
+		
+		.address-wrap-home {
+			text-align: left;
+			margin-left: 30px;
+		}
+	}
+	.address-wrap {
+		width: 55%;
+		float: right;
+		/*margin: 0 auto;*/
+		padding: 7.5rem 0 0 .250px;
+		text-align: left;
+	}
+}
